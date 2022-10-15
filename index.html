@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Nevatrip</title>
+</head>
+<body>
+<main>
+    <select name="route" id="route">
+        <option value="" selected disabled>Выберите время</option>
+        <option value="AtoB">из A в B</option>
+        <option value="BtoA">из B в A</option>
+        <option value="AtoBtoA">из A в B и обратно в А</option>
+    </select>
+    <div class="time-box">
+
+    </div>
+    <div class="num-box">
+        <label for="num">Количество билетов</label>
+        <input id="num">
+        <button id="calculated">Посчитать</button>
+    </div>
+    <p id="message"></p>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
